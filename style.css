@@ -1,0 +1,169 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #093C5D;
+}
+
+body{
+    background-color: #093C5D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+}
+.title{
+   height: 8vh;
+   width: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.35rem;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   margin-bottom: 1.5rem;
+}
+.title h2{
+ font-weight: 800;
+}
+form{
+    height: 85%;
+}
+
+form .amount {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+.amount input{
+    width: 93%;
+    height: 3.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #6FD1D7;
+    
+}
+
+.container{
+    background-color: #5DF8D8;
+    width: 50vh;
+    height: 60vh;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dropdowns{
+    /* background-color: rebeccapurple; */
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dropdowns select{
+    height: 1rem;
+}
+
+
+
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45px;
+    border: 1px solid #093C5D;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.select-container select{
+    height: 100%
+}
+
+.select-container img,select{
+    width: 50%;
+}
+
+
+select{
+    border-radius: 10px;
+    border: none;
+    padding-left: 0.3rem;
+    outline: none;
+    background-color: #5DF8D8;
+    font-size: 1rem;
+}
+
+.from{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 40%;
+}
+.to{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 40%;
+}
+
+i{
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.msg-btn{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+.msg{
+    color: #093C5D;
+    background-color: #6FD1D7;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+button{
+    width: 70%;
+    height: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: #093C5D;
+    color: #5DF8D8;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.3;
+}
+
+.fa-arrow-right-arrow-left {
+    cursor: pointer;
+}
+
+.fa-arrow-right-arrow-left:hover{
+    opacity: 0.6;
+}
+
+.fa-arrow-right-arrow-left:active{
+    opacity: 0.3;
+}
